@@ -1,0 +1,8 @@
+entity HDI_OBJECT_EXPOSURE {
+    key OBJECT_ID			: String(36);
+    	OBJECT_NAME 		: String(255);
+    	CONTAINER_NAME  	: String(100);
+    	USER_ACCESS_LEVEL	: String(50);
+    	CREATED_AT			: UTCDateTime default CURRENT_TIMESTAMP;
+    	MODIFIED_AT 		: UTCDateTime default CURRENT_TIMESTAMP;
+};
